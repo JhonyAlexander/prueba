@@ -1,0 +1,101 @@
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    h2{
+        color: white;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        text-shadow: 5px 5px 4px #054c75;
+        font-family: 'Cherry Swash', cursive;
+    }
+    h3{
+        color: rgb(206, 10, 10);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        font-family: 'Cherry Swash', cursive;
+    }
+    h4{
+        color: rgb(199, 235, 250);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        text-shadow: 5px 5px 4px #000000;
+        font-family: 'Cherry Swash', cursive;
+    }
+
+
+    .Container{
+       
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    
+    .main{
+        width: 100%;
+        float: left;
+    }
+    
+    article{
+        width: 100%;
+        float: left;
+        margin: 0%;
+    }
+    
+    .Post article{
+        margin-top: 10px;
+        color: #ffffff;
+        padding: 0px;
+        line-height: 10px;
+        
+        
+    }
+
+    
+    
+    .Post article p{
+    padding-top: 0px;
+    color: #000000;
+    margin: 20px;
+    justify-self: center;
+    font-family: 'Cherry Swash', cursive;
+    text-align:center;
+    }
+
+    
+    
+    
+    footer{
+        overflow: hidden;
+        width: 100%;
+    }
+    footer{
+        text-align: justify;
+         overflow: hidden;
+         width: 100%;
+         padding: 10px;
+         border-top: 1px solid white;
+         background-color: black;
+     }
+     
+     footer p{
+         color: white;
+         text-align: center;
+     }
+     footer{
+        width: 100%;
+        color: white;
+        background-color: black;
+    }

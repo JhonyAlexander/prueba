@@ -1,0 +1,145 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	background-color: #cbcbce6e;
+	
+}
+
+header{
+    display: flex;
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #283b4e;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    margin: 6px auto 0;
+}
+.logo img{
+    height: 75px;
+}
+
+.Logo-Nombre{
+    margin: 10px auto 0;
+}
+
+
+.search {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: center;
+}
+.search__title {
+	color: var(--text-color);
+	text-align: center;
+}
+.search__input {
+	background-color: rgba(255, 255, 255, 0.39);
+	border: 2px solid var(--primary-color);
+	border-radius: 18px;
+	color: var(--text-color);
+	font-family: "Muli", sans-serif;
+	font-size: 20px;
+	height: 25px;
+	outline: none;
+	padding: 5px 20px ;
+	width: 60%;
+}
+::placeholder {
+	
+	color: var(--text-color);
+	
+}
+
+
+nav {
+	margin: 23px auto 0;
+	position:relative;
+	width: 600px;
+	height: 50px;
+	background-color: #34495e93;
+	border-radius: 10px;
+	font-size:0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+    color: #ecf0f1;
+	text-shadow: 2px 3px 6px #000000;
+	
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+
+h1  {
+	text-align: center;
+	margin: 50px 0 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #ecf0f1;
+	text-shadow: 5px 5px 4px #000000;
+	font-family: 'Cherry Swash', cursive;
+}
+
